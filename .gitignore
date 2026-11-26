@@ -1,0 +1,36 @@
+# Environments and Local Keys
+.env
+.env.local
+*.env
+
+# Python Virtual Environments & Caches
+backend/venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.coverage
+htmlcov/
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database & SQLite Fallback files
+*.db
+*.sqlite
+*.sqlite3
+healthtwin_fallback.db
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.zip

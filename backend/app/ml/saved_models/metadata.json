@@ -1,0 +1,32 @@
+{
+  "model_version": "1.2.0",
+  "trained_at": "2026-10-29T11:35:27.463253",
+  "algorithm": "RandomForestClassifier",
+  "features": [
+    "age",
+    "gender_male",
+    "systolic_bp",
+    "diastolic_bp",
+    "bmi",
+    "blood_glucose",
+    "activity_hours",
+    "resting_hr"
+  ],
+  "performance": {
+    "accuracy": 0.918,
+    "roc_auc": 0.9862,
+    "f1_score": 0.9474
+  },
+  "feature_importances": {
+    "age": 0.3235,
+    "gender_male": 0.0169,
+    "systolic_bp": 0.2154,
+    "diastolic_bp": 0.1007,
+    "bmi": 0.0615,
+    "blood_glucose": 0.1127,
+    "activity_hours": 0.1467,
+    "resting_hr": 0.0227
+  },
+  "population": "Adult cohorts aged 20-85, biometric screening baseline",
+  "intended_use": "Screening risk assessment and educational awareness. Not an FDA clinical diagnosis."
+}
